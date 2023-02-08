@@ -34,9 +34,9 @@ def welcome():
     "List of all available api routes."
     return (
         f"Available Static Routes:<br/>"
-        f"/api/v1.0/precipitation => Returns recorded date and precipitation values. <br/>"
+        f"/api/v1.0/precipitation => Returns recorded date and precipitation values for the most recent year. <br/>"
         f"/api/v1.0/stations => Returns list of station names (ID) <br/>"
-        f"/api/v1.0/tobs => Returns recorded date and temperature values. <br/><br/>"
+        f"/api/v1.0/tobs => Returns recorded date and temperature values for the most recent year. <br/><br/>"
         f"Available dynamic Routes - You can specify start and end dates (format = YYYY-MM-DD). <br/>"
         f"This will return the minimum, maximum, and average temperature recorded between the dates provided. <br/>"
         f"/api/v1.0/start_date<br/>"
